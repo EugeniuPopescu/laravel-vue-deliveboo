@@ -35,28 +35,28 @@
 ###
 
 <h3 align="left">project/backend</h3>
-``` bash
+```bash
 php artisan serve
 ```
 
 ###
 
 <h3 align="left">project/backend</h3>
-``` bash
+```bash
 npm run dev
 ```
 
 ###
 
 <h3 align="left">project/frontend</h3>
-``` bash
+```bash
 npm run dev
 ```
 
 ###
 
 <h3 align="left">PhpMyAdmin</h3>
-``` bash
+```bash
 Php -S localhost:8888
 ```
 
