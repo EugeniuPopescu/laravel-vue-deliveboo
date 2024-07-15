@@ -35,68 +35,32 @@
 ###
 
 <h3 align="left">project/backend</h3>
-```#!/bin/sh
 
-# display the file name
-echo "The name of the script file is $0"
+```bash
+php composer serve
+```
+###
 
-# display total number of arguments passed to the script
-echo "Total number of arguments passed to the script = $#"
+<h3 align="left">project/backend</h3>
 
-# display all the arguments using for loop
-if [ $# -gt 0 ]
-then
-  
-  echo "List of arguments:"
-  for arg in $@
-  do
-    echo "$arg"
-  done
-
-else
-  
-  echo "No argument provided to the script."
-
-fi 
-
-Output:
-
-$ sh example.sh 
-The name of the script file is example.sh
-Total number of arguments passed to the script = 0
-No argument provided to the script.
-
-
-$ sh example.sh Hello World! What's up ?
-The name of the script file is example.sh
-Total number of arguments passed to the script = 5
-List of arguments:
-Hello
-World
-WWhat's
-up
-?
+```
+npm run dev
 ```
 
 ###
 
-<h3 align="left">project/backend</h3>
-```bash
-npm run dev
-	```
-
-###
-
 <h3 align="left">project/frontend</h3>
+
 ```bash
 npm run dev
-	```
+```
 
 ###
 
 <h3 align="left">PhpMyAdmin</h3>
+
 ```bash
 Php -S localhost:8888
-	```
+```
 
 ###
